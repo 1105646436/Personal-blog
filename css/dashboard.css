@@ -1,0 +1,56 @@
+.BM {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.SMP {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.CM {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.USER {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.NOTE {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.IMG {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}
+.ABOUT {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    margin: 30px;
+    z-index: 1;
+}

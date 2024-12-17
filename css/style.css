@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "kaifont";
+    src: url("../font/LXGWWenKai-Regular.ttf") format("truetype");
+}
+body {
+    opacity: 0; /* 初始透明度为0 */
+    transition: opacity 1.5s ease; /* 添加过渡效果 */
+}
+/* 全局设置不可选中 */
+* {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+/* 排除特定的元素使其可选 */
+input,
+textarea,
+[contenteditable="true"] {
+    -webkit-user-select: text; /* Safari */
+    -moz-user-select: text; /* Firefox */
+    -ms-user-select: text; /* IE10+/Edge */
+    user-select: text; /* Standard */
+}
+/* 全局清除格式 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "kaifont", Arial, sans-serif;
+}
+/* 设置页面占比居中 */
+.rongqi {
+    width: 50%;
+    margin: auto;
+}
+.header {
+    position: fixed; /* 固定在顶部 */
+    top: 0; /* 紧贴在窗口顶部 */
+    left: 0; /* 紧贴在窗口左侧 */
+    width: 100%; /* 宽度覆盖整个窗口 */
+    z-index: 999; /* 确保在其他内容之上 */
+    padding-top: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 0 20px;
+    transition: background-color 1s ease;
+}
+.nav:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.logo {
+    width: 32px;
+    height: 32px;
+}
+.liebiao li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: gold;
+}
+footer {
+    text-align: center;
+    padding: 60px;
+}
+.login {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}

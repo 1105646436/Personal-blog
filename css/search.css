@@ -1,0 +1,87 @@
+/* Body样式：给页面增加顶部的间距 */
+body {
+    margin-top: 120px;
+}
+
+/* 搜索框容器样式：居中显示，设置高度和宽度 */
+.search-all {
+    display: flex; /* 使用Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: center; /* 水平居中对齐 */
+    width: 100%; /* 宽度100% */
+    height: 60vh; /* 高度为视窗高度的60% */
+}
+
+/* 搜索框标题样式 */
+.search-h {
+    display: inline; /* 让标题显示在同一行 */
+}
+
+/* 搜索文本框样式：设置内边距、边框、圆角等 */
+.search-text {
+    padding: 8px; /* 设置内边距 */
+    border: 1px solid black; /* 设置边框为1px黑色 */
+    border-radius: 10px; /* 设置圆角 */
+    margin: 0 20px; /* 左右间距20px */
+    width: 300px; /* 宽度300px */
+}
+
+/* 搜索图标样式：控制图标的大小和背景 */
+.search-img {
+    width: 30px; /* 宽度30px */
+    height: 30px; /* 高度30px */
+    border: 0; /* 不显示边框 */
+    background-color: white; /* 背景颜色为白色 */
+}
+
+/* 搜索图标内部图片样式：确保图片占满整个容器 */
+.search-img img {
+    width: 100%; /* 宽度100% */
+    height: 100%; /* 高度100% */
+}
+
+/* 文章容器样式：设置宽度和高度，使用Flexbox布局 */
+.article {
+    width: 100%; /* 宽度100% */
+    height: 15vh; /* 高度为视窗高度的15% */
+    display: flex; /* 使用Flexbox布局 */
+    justify-content: space-between; /* 使内容分布两侧 */
+    align-items: center; /* 垂直居中对齐 */
+    margin: 30px; /* 外边距30px */
+}
+
+/* 文章图片样式：设置图片大小 */
+.artimg {
+    width: 100px; /* 宽度100px */
+    height: 100px; /* 高度100px */
+}
+
+/* 图片圆形裁剪样式 */
+.img {
+    width: 100%; /* 宽度100% */
+    height: 100%; /* 高度100% */
+    border-radius: 50%; /* 圆形裁剪 */
+}
+
+/* 文章标题和内容容器样式 */
+.arttit {
+    padding-left: 25px; /* 左内边距25px */
+    padding-right: 25px; /* 右内边距25px */
+    width: 75%; /* 宽度75% */
+}
+
+/* 文章段落样式：设置字体大小和上边距 */
+.artp {
+    margin-top: 5px; /* 上边距5px */
+    font-size: 12px; /* 字体大小12px */
+}
+
+/* 水平分割线样式 */
+hr {
+    border: 0; /* 无边框 */
+    background: #dbdbdb; /* 背景色为浅灰色 */
+    width: 36%; /* 宽度36% */
+    height: 1px; /* 高度1px */
+    text-align: center; /* 水平居中对齐 */
+    margin: 30px auto; /* 上下间距30px，左右自动居中 */
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-image: url(../img/bj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register h2 {
+    color: rgb(118, 166, 236);
+    margin: 20px 36px;
+}
+.register {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.register {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.register-input {
+    margin: 0 0 0 36px;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.login {
+    font-size: 14px;
+    margin: 10px 36px;
+}
+a {
+    text-decoration: none;
+    color: rgb(118, 166, 236);
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: gold;
+}
+button {
+    background-color: rgb(118, 166, 236);
+}
+.remind {
+    margin: 0 0 0 36px;
+}
+.remind-font {
+    font-size: 12px;
+    height: 20px;
+}
+.spacing {
+    margin: 0 0 20px 36px;
+}

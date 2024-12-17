@@ -1,0 +1,65 @@
+body {
+    margin-top: 120px;
+}
+.message {
+    margin: 30px 0 0 0;
+}
+.message textarea {
+    padding: 6px 12px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.message textarea:focus {
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.5);
+}
+.datum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+.datum input {
+    width: 22%;
+    height: 36px;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+.datum input:focus {
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.5);
+}
+.datum img {
+    border-radius: 18px;
+}
+.send {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0 0 20px 0;
+}
+.send:focus {
+    background-color: black;
+    color: white;
+}
+.avatar div {
+    display: inline-block;
+}
+.avatar div img {
+    border-radius: 50%;
+}
+.comment {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(200, 200, 200, 0.5);
+    margin: 20px 0;
+    padding: 20px;
+    transition: box-shadow 0.6s ease;
+    width: 100%;
+}
+.comment:hover {
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.5);
+}

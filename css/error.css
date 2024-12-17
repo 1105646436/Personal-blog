@@ -1,0 +1,15 @@
+body {
+    margin-top: 18vh;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.a-index {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+}

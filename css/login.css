@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-image: url(../img/bj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login h2 {
+    color: rgb(118, 166, 236);
+    margin: 20px 36px;
+}
+.login {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.login {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.login-input {
+    margin: 10px 0 0 36px;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.register {
+    font-size: 14px;
+    margin: 10px 36px;
+}
+a {
+    text-decoration: none;
+    color: rgb(118, 166, 236);
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: gold;
+}
+button {
+    background-color: rgb(118, 166, 236);
+}
